@@ -5,7 +5,9 @@
     "react-scripts": "^5.0.0"
   },
   "main": "/index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
   "name": "vy6j3f",
   "description": null,
   "version": "0.0.0",
@@ -26,5 +28,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "babel": {
+    "plugins": ["@babel/plugin-proposal-private-property-in-object"]
   }
 }
